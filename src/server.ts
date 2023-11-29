@@ -19,10 +19,12 @@ import HttpStatusCodes from './constants/HttpStatusCodes';
 
 import { NodeEnvs } from './constants/misc';
 import { RouteError } from './other/classes';
+import cors from 'cors';
 
 // **** Variables **** //
 
 const app = express();
+app.use(cors());
 
 // **** Setup **** //
 
@@ -87,3 +89,7 @@ app.get('/users', (_: Request, res: Response) => {
 // **** Export default **** //
 
 export default app;
+
+
+
+
