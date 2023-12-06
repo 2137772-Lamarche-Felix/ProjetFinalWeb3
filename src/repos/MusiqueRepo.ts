@@ -13,10 +13,12 @@ async function add(musique: IMusique): Promise<IMusique> {
     return await Musique.create(nouvelleMusique);
 }
 async function delete_(id:string): Promise<void> {
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     await Musique.deleteMany({_id: id});
 }
 
 async function update(musique: IMusique): Promise<IMusique | null> {
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     let musiqueUpdate = await Musique.findByIdAndUpdate(musique._id, musique ,{
         returnDocument: 'after'
     });
@@ -27,21 +29,25 @@ async function update(musique: IMusique): Promise<IMusique | null> {
     return await musiqueUpdate
 }
 
-async function getById(id:string): Promise<IMusique | null> {
+async function getById(id:string): Promise<IMusique | null> {è
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     const musique = Musique.findOne({_id : id});
     return musique;
 }
 
 async function getByTitre(titre:string): Promise<IMusique | null> {
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     const musique = Musique.findOne({titre: titre});
     return musique;
 }
 
 async function getByNombreEcoute(min:number,max:number): Promise<IMusique[] | null> {
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     const musique = Musique.find({nombreDecoute: {$gte: min, $lte: max}});
     return musique;
 }
 async function getMoyenneEcouteArtiste(artiste:string): Promise<number> {
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     const musique = await Musique.aggregate([
         {
             $match: {
@@ -62,6 +68,7 @@ async function getMoyenneEcouteArtiste(artiste:string): Promise<number> {
 }
 
 async function getEcouteTotaleArtiste(artiste:string): Promise<number> {
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     const musique = await Musique.aggregate([
         {
             $match: {
@@ -84,6 +91,7 @@ async function getEcouteTotaleArtiste(artiste:string): Promise<number> {
 
 
 async function testId(id:string): Promise<boolean> {
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     const musique = Musique.findById(id);
 
   return musique !== null;
