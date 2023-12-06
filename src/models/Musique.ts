@@ -4,7 +4,7 @@ import { platform } from 'os';
 
 
 export interface IMusique {
-    _id?: string;
+    _id: string;
     titre: string;
     artiste: {
             nomArtiste: string; 
