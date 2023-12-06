@@ -1,11 +1,14 @@
 import { ReturnDocument } from 'mongodb';
 import Musique, { IMusique } from '../models/Musique';
+import { connect } from 'mongoose';
 
 async function getAll(): Promise<IMusique[]> {
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     return await Musique.find();
     
 }
 async function add(musique: IMusique): Promise<IMusique> {
+    await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
     const nouvelleMusique = new Musique(musique);
     return await Musique.create(nouvelleMusique);
 }
