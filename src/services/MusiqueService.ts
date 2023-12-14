@@ -29,7 +29,7 @@ function updateOne(jeu: IMusique): Promise<IMusique | null> {
 function getById(id:string): Promise<IMusique | null> {
     return MusiqueRepo.getById(id);
 }
-function getByTitre(titre:string): Promise<IMusique | null> {
+function getByTitre(titre:string): Promise<IMusique[] | null> {
     return MusiqueRepo.getByTitre(titre);
 }
 
