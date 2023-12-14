@@ -37,7 +37,7 @@ async function getById(id:string): Promise<IMusique | null> {
 
 async function getByTitre(titre:string): Promise<IMusique | null> {
     await connect(process.env.MONGODB_URI!, {dbName:'Projet'});
-    const musique = Musique.findOne({titre: titre});
+    const musique = Musique.findOne({titre: /^titre/});
     return musique;
 }
 
