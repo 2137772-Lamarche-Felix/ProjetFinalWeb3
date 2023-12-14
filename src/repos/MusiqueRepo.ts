@@ -51,7 +51,7 @@ async function getMoyenneEcouteArtiste(artiste:string): Promise<number> {
     const musique = await Musique.aggregate([
         {
             $match: {
-                'artiste.nomArtiste': artiste
+                'artiste.nomArtiste': { $regex : artiste }
             }
         },
         {
