@@ -48,12 +48,12 @@ async function getByNombreEcoute(req:IReq<{min:number,max:number}>,res:IRes){
 async function getMoyenneEcouteArtiste(req:IReq<{artiste:string}>,res:IRes){
     const artiste = req.params.artiste;
     const nbEcoute = await MusiqueService.getMoyenneEcouteArtiste(artiste);
-    res.status(HttpStatusCodes.OK).json({"Nombre d'écoute Moyen" : artiste + " a une moyenne d'écoute de "+ nbEcoute});
+    res.status(HttpStatusCodes.OK).json({"NombreMoyen" : artiste + " a une moyenne d'écoute de "+ nbEcoute});
 }
 async function getEcouteTotaleArtiste(req:IReq<{artiste:string}>,res:IRes){
     const artiste = req.params.artiste;
     const nombreEcouteTotale = await MusiqueService.getEcouteTotaleArtiste(artiste);
-    res.status(HttpStatusCodes.OK).json({"Nombre d'écoute Totale" : artiste + " a une moyenne d'écoute de "+ nombreEcouteTotale});
+    res.status(HttpStatusCodes.OK).json({"NombreTotale" : artiste + " a un total de "+ nombreEcouteTotale});
 }
 
 
