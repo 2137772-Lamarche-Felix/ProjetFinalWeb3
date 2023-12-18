@@ -1,0 +1,553 @@
+[{
+  "_id": {
+    "$oid": "6570e050a8728a75330aa0b1"
+  },
+  "titre": "Welcome to horrorwood",
+  "artiste": {
+    "nomArtiste": "Ice Nine Kills",
+    "nom": "Spencer",
+    "prenom": "Charnas",
+    "nombreAnneeCarriere": 21,
+    "dateNaissance": {
+      "$date": "2002-05-15T00:00:00.000Z"
+    },
+    "origine": "Massachusetts"
+  },
+  "album": [
+    {
+      "name": "Welcome to horrorwood",
+      "url": "album1_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "2022-07-25T00:00:00.000Z"
+  },
+  "duree": 300,
+  "paroles": "Welcome to horrorwood!",
+  "compositeur": "Spencer charnas",
+  "producteur": "Music Productions Inc.",
+  "enCollaboration": false,
+  "nombreDecoute": 18391262,
+  "evaluations": [
+    {
+      "note": 5,
+      "_id": {
+        "$oid": "657cb921a33a974a7002c6bd"
+      }
+    }
+  ],
+  "commentaires": [
+    "I LOVE IT!"
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/e/e9/The_Silver_Scream_2_Welcome_to_Horrorwood_Album_Artwork.jpg",
+  "fichierAudio": "Le fichier mp4",
+  "source": "Lien Youtube",
+  "estFavoris": true,
+  "artistesEnCollaboration": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657b699b83f6e6da642d30ce"
+  },
+  "titre": "Psychosocial",
+  "artiste": {
+    "nomArtiste": "Slipknot",
+    "nom": "Slipknot",
+    "prenom": "The Group",
+    "nombreAnneeCarriere": 25,
+    "dateNaissance": {
+      "$date": "1995-05-15T00:00:00.000Z"
+    },
+    "origine": "Des Moines, Iowa"
+  },
+  "album": [
+    {
+      "name": "All Hope Is Gone",
+      "url": "all_hope_is_gone_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "2008-08-20T00:00:00.000Z"
+  },
+  "duree": 294,
+  "paroles": "The limits of the dead!",
+  "compositeur": "Slipknot",
+  "producteur": "Roadrunner Records",
+  "enCollaboration": false,
+  "nombreDecoute": 1500,
+  "evaluations": [
+    {
+      "note": 4.7,
+      "_id": {
+        "$oid": "657b699b83f6e6da642d30cf"
+      }
+    },
+    {
+      "note": 5,
+      "_id": {
+        "$oid": "657b699b83f6e6da642d30d0"
+      }
+    }
+  ],
+  "commentaires": [
+    "Intense and powerful!",
+    "Classic Slipknot aggression."
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/a/a9/All_Hope_is_Gone_%28original%29.jpg",
+  "fichierAudio": "psychosocial.mp3",
+  "source": "YouTube Link",
+  "estFavoris": true,
+  "artistesEnCollaboration": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657b718155f54c38fa6b19fb"
+  },
+  "titre": "Psychosocial",
+  "artiste": {
+    "nomArtiste": "Slipknot",
+    "nom": "Slipknot",
+    "prenom": "The Group",
+    "nombreAnneeCarriere": 25,
+    "dateNaissance": {
+      "$date": "1995-05-15T00:00:00.000Z"
+    },
+    "origine": "Des Moines, Iowa"
+  },
+  "album": [
+    {
+      "name": "All Hope Is Gone",
+      "url": "all_hope_is_gone_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "2008-08-20T00:00:00.000Z"
+  },
+  "duree": 294,
+  "paroles": "The limits of the dead!",
+  "compositeur": "Slipknot",
+  "producteur": "Roadrunner Records",
+  "enCollaboration": false,
+  "nombreDecoute": 1500000,
+  "evaluations": [
+    {
+      "note": 4.7,
+      "_id": {
+        "$oid": "657b718155f54c38fa6b19fc"
+      }
+    },
+    {
+      "note": 5,
+      "_id": {
+        "$oid": "657b718155f54c38fa6b19fd"
+      }
+    }
+  ],
+  "commentaires": [
+    "Intense and powerful!",
+    "Classic Slipknot aggression."
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/a/a9/All_Hope_is_Gone_%28original%29.jpg",
+  "fichierAudio": "psychosocial.mp3",
+  "source": "YouTube Link",
+  "estFavoris": true,
+  "artistesEnCollaboration": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6580d1ec1d85f0c9808145f7"
+  },
+  "titre": "Duality",
+  "artiste": {
+    "nomArtiste": "Slipknot",
+    "nom": "Slipknot",
+    "prenom": "The Group",
+    "nombreAnneeCarriere": 25,
+    "dateNaissance": {
+      "$date": "1995-05-15T00:00:00.000Z"
+    },
+    "origine": "Des Moines, Iowa"
+  },
+  "album": [
+    {
+      "name": "Vol. 3: (The Subliminal Verses)",
+      "url": "vol_3_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "2004-05-24T00:00:00.000Z"
+  },
+  "duree": 248,
+  "paroles": "I push my fingers into my eyes...",
+  "compositeur": "Slipknot",
+  "producteur": "Rick Rubin",
+  "enCollaboration": false,
+  "nombreDecoute": 2000,
+  "evaluations": [
+    {
+      "note": 4.9,
+      "_id": {
+        "$oid": "6580d1ec1d85f0c9808145f8"
+      }
+    },
+    {
+      "note": 5,
+      "_id": {
+        "$oid": "6580d1ec1d85f0c9808145f9"
+      }
+    }
+  ],
+  "commentaires": [
+    "One of their best!",
+    "Incredible energy in this track."
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/2/2a/Vol._3%2C_The_Subliminal_Verses.jpg",
+  "fichierAudio": "duality.mp3",
+  "source": "YouTube Link",
+  "estFavoris": false,
+  "artistesEnCollaboration": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6580d23d1d85f0c9808145fe"
+  },
+  "titre": "Wait and Bleed",
+  "artiste": {
+    "nomArtiste": "Slipknot",
+    "nom": "Slipknot",
+    "prenom": "The Group",
+    "nombreAnneeCarriere": 25,
+    "dateNaissance": {
+      "$date": "1995-05-15T00:00:00.000Z"
+    },
+    "origine": "Des Moines, Iowa"
+  },
+  "album": [
+    {
+      "name": "Slipknot",
+      "url": "slipknot_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "1999-07-27T00:00:00.000Z"
+  },
+  "duree": 168,
+  "paroles": "I've felt the hate rise up in me...",
+  "compositeur": "Slipknot",
+  "producteur": "Ross Robinson",
+  "enCollaboration": false,
+  "nombreDecoute": 1800,
+  "evaluations": [
+    {
+      "note": 4.5,
+      "_id": {
+        "$oid": "6580d23d1d85f0c9808145ff"
+      }
+    },
+    {
+      "note": 4.8,
+      "_id": {
+        "$oid": "6580d23d1d85f0c980814600"
+      }
+    }
+  ],
+  "commentaires": [
+    "Iconic track!",
+    "Brings back memories."
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/2/2c/Slipknot_%28album%29_cover.jpg",
+  "fichierAudio": "wait_and_bleed.mp3",
+  "source": "YouTube Link",
+  "estFavoris": true,
+  "artistesEnCollaboration": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6580d2ad1d85f0c980814605"
+  },
+  "titre": "People = Shit",
+  "artiste": {
+    "nomArtiste": "Slipknot",
+    "nom": "Slipknot",
+    "prenom": "The Group",
+    "nombreAnneeCarriere": 25,
+    "dateNaissance": {
+      "$date": "1995-05-15T00:00:00.000Z"
+    },
+    "origine": "Des Moines, Iowa"
+  },
+  "album": [
+    {
+      "name": "Iowa",
+      "url": "iowa_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "2001-08-28T00:00:00.000Z"
+  },
+  "duree": 225,
+  "paroles": "Here we go again, motherfucker...",
+  "compositeur": "Slipknot",
+  "producteur": "Ross Robinson",
+  "enCollaboration": false,
+  "nombreDecoute": 1700,
+  "evaluations": [
+    {
+      "note": 4.6,
+      "_id": {
+        "$oid": "6580d2ad1d85f0c980814606"
+      }
+    },
+    {
+      "note": 4.9,
+      "_id": {
+        "$oid": "6580d2ad1d85f0c980814607"
+      }
+    }
+  ],
+  "commentaires": [
+    "Angry and raw!",
+    "Classic Slipknot aggression."
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/8/83/Iowa_%28album%29_cover.jpg",
+  "fichierAudio": "people_equals_shit.mp3",
+  "source": "YouTube Link",
+  "estFavoris": false,
+  "artistesEnCollaboration": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6580d2ba1d85f0c98081460c"
+  },
+  "titre": "Sulfur",
+  "artiste": {
+    "nomArtiste": "Slipknot",
+    "nom": "Slipknot",
+    "prenom": "The Group",
+    "nombreAnneeCarriere": 25,
+    "dateNaissance": {
+      "$date": "1995-05-15T00:00:00.000Z"
+    },
+    "origine": "Des Moines, Iowa"
+  },
+  "album": [
+    {
+      "name": "All Hope Is Gone",
+      "url": "all_hope_is_gone_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "2008-07-23T00:00:00.000Z"
+  },
+  "duree": 281,
+  "paroles": "My guilt and my shame...",
+  "compositeur": "Slipknot",
+  "producteur": "Dave Fortman",
+  "enCollaboration": false,
+  "nombreDecoute": 2100,
+  "evaluations": [
+    {
+      "note": 4.7,
+      "_id": {
+        "$oid": "6580d2ba1d85f0c98081460d"
+      }
+    },
+    {
+      "note": 4.8,
+      "_id": {
+        "$oid": "6580d2ba1d85f0c98081460e"
+      }
+    }
+  ],
+  "commentaires": [
+    "Hauntingly beautiful!",
+    "Amazing vocal performance."
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/a/a9/All_Hope_is_Gone_%28original%29.jpg",
+  "fichierAudio": "sulfur.mp3",
+  "source": "YouTube Link",
+  "estFavoris": true,
+  "artistesEnCollaboration": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6580d2d31d85f0c980814613"
+  },
+  "titre": "Dead Memories",
+  "artiste": {
+    "nomArtiste": "Slipknot",
+    "nom": "Slipknot",
+    "prenom": "The Group",
+    "nombreAnneeCarriere": 25,
+    "dateNaissance": {
+      "$date": "1995-05-15T00:00:00.000Z"
+    },
+    "origine": "Des Moines, Iowa"
+  },
+  "album": [
+    {
+      "name": "All Hope Is Gone",
+      "url": "all_hope_is_gone_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "2008-12-01T00:00:00.000Z"
+  },
+  "duree": 278,
+  "paroles": "Sitting in the dark, I can't forget...",
+  "compositeur": "Slipknot",
+  "producteur": "Dave Fortman",
+  "enCollaboration": false,
+  "nombreDecoute": 1900,
+  "evaluations": [
+    {
+      "note": 4.6,
+      "_id": {
+        "$oid": "6580d2d31d85f0c980814614"
+      }
+    },
+    {
+      "note": 4.9,
+      "_id": {
+        "$oid": "6580d2d31d85f0c980814615"
+      }
+    }
+  ],
+  "commentaires": [
+    "Beautifully haunting!",
+    "Emotional and powerful."
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/a/a9/All_Hope_is_Gone_%28original%29.jpg",
+  "fichierAudio": "dead_memories.mp3",
+  "source": "YouTube Link",
+  "estFavoris": false,
+  "artistesEnCollaboration": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6580d2ee1d85f0c98081461a"
+  },
+  "titre": "The Nameless",
+  "artiste": {
+    "nomArtiste": "Slipknot",
+    "nom": "Slipknot",
+    "prenom": "The Group",
+    "nombreAnneeCarriere": 25,
+    "dateNaissance": {
+      "$date": "1995-05-15T00:00:00.000Z"
+    },
+    "origine": "Des Moines, Iowa"
+  },
+  "album": [
+    {
+      "name": "Vol. 3: (The Subliminal Verses)",
+      "url": "vol_3_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "2005-06-20T00:00:00.000Z"
+  },
+  "duree": 300,
+  "paroles": "Leper, Messiah...",
+  "compositeur": "Slipknot",
+  "producteur": "Rick Rubin",
+  "enCollaboration": false,
+  "nombreDecoute": 1600,
+  "evaluations": [
+    {
+      "note": 4.8,
+      "_id": {
+        "$oid": "6580d2ee1d85f0c98081461b"
+      }
+    },
+    {
+      "note": 4.7,
+      "_id": {
+        "$oid": "6580d2ee1d85f0c98081461c"
+      }
+    }
+  ],
+  "commentaires": [
+    "Epic and intense!",
+    "Underrated gem."
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/2/2a/Vol._3%2C_The_Subliminal_Verses.jpg",
+  "fichierAudio": "the_nameless.mp3",
+  "source": "YouTube Link",
+  "estFavoris": true,
+  "artistesEnCollaboration": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6580d3061d85f0c980814621"
+  },
+  "titre": "Vermilion",
+  "artiste": {
+    "nomArtiste": "Slipknot",
+    "nom": "Slipknot",
+    "prenom": "The Group",
+    "nombreAnneeCarriere": 25,
+    "dateNaissance": {
+      "$date": "1995-05-15T00:00:00.000Z"
+    },
+    "origine": "Des Moines, Iowa"
+  },
+  "album": [
+    {
+      "name": "Vol. 3: (The Subliminal Verses)",
+      "url": "vol_3_url"
+    }
+  ],
+  "genre": "Metal",
+  "dateDeSortie": {
+    "$date": "2004-05-10T00:00:00.000Z"
+  },
+  "duree": 324,
+  "paroles": "She isn't real...",
+  "compositeur": "Slipknot",
+  "producteur": "Rick Rubin",
+  "enCollaboration": false,
+  "nombreDecoute": 2400,
+  "evaluations": [
+    {
+      "note": 4.7,
+      "_id": {
+        "$oid": "6580d3061d85f0c980814622"
+      }
+    },
+    {
+      "note": 4.9,
+      "_id": {
+        "$oid": "6580d3061d85f0c980814623"
+      }
+    }
+  ],
+  "commentaires": [
+    "Beautiful and haunting!",
+    "Love the atmosphere."
+  ],
+  "imageDeCouverture": "https://upload.wikimedia.org/wikipedia/en/2/2a/Vol._3%2C_The_Subliminal_Verses.jpg",
+  "fichierAudio": "vermilion.mp3",
+  "source": "YouTube Link",
+  "estFavoris": false,
+  "artistesEnCollaboration": [],
+  "__v": 0
+}]
